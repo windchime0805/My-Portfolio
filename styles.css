@@ -1818,7 +1818,12 @@ body.orb-reverse .orb-one {
   animation-name: orb-path-up,orb-pulse;
 }
 body[data-theme=day] .wandering-star {
-  display: none;
+  display: block;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: #e1aa43;
+  box-shadow: 0 0 9px 3px rgba(193,138,50,.78),0 0 26px 11px rgba(231,184,82,.58);
 }
 body[data-theme=night] .wandering-star {
   opacity: .8;
