@@ -531,20 +531,19 @@ body[data-theme=day] .fireflies {
   position: absolute;
   bottom: 76px;
   color: #102924;
-  font-size: 114px;
+  font-size: 82px;
   line-height: 1;
   filter: drop-shadow(0 4px 0 rgba(11,33,27,.4));
-  transform: scaleX(.7);
 }
 .tree-left {
   left: 5px;
   bottom: 50px;
-  font-size: 148px;
+  font-size: 82px;
 }
 .tree-right {
   right: 22px;
   bottom: 63px;
-  font-size: 120px;
+  font-size: 82px;
 }
 .art-caption {
   position: absolute;
@@ -1077,16 +1076,6 @@ body[data-theme=day] .fireflies {
   display: flex;
   gap: 16px;
   margin-top: 20px;
-}
-.link-placeholder {
-  font-size: 9px;
-  color: var(--muted-2);
-  border-bottom: 1px dotted var(--muted-2);
-  padding-bottom: 3px;
-  cursor: help;
-}
-.link-placeholder span {
-  color: var(--accent-2);
 }
 .project-footnote {
   text-align: center;
@@ -1730,12 +1719,12 @@ body[data-theme=day] .hero .social-links a:hover {
     height: 56px;
   }
   .tree-left {
-    font-size: 125px;
+    font-size: 68px;
     left: -11px;
   }
   .tree-right {
     right: 6px;
-    font-size: 96px;
+    font-size: 62px;
   }
   .art-caption {
     left: 20px;
